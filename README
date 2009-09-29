@@ -1,0 +1,22 @@
+Actually I really like the following API
+http://library.gnome.org/devel/rhythmbox/unstable/RBPlayer.html
+
+For the mockup, I recommend the following :
+- The main playback on top of the screen stays with the main output. So, in
+  "party mix", stopping is not possible and it follows the playlist.
+- a kind of secondary player could appear on the bottom named "headphone" or
+  something like this. When we are on the library page, double clicking on a
+file start play back on the secondary output.
+- the item "add to the playlist" keep the same behaviour.
+- in the main playlist, double clicking on a file start playback on the
+  secondary output.
+
+Additional feature:
+- already played musics could appear in gray. I use the "last played" column
+  to know which files have been already played in the party.
+
+Any other idea?
+
+PS: I know well C++ but not so easy with python. I will easily follow when you
+will have started.
+
