@@ -1,22 +1,36 @@
-Actually I really like the following API
-http://library.gnome.org/devel/rhythmbox/unstable/RBPlayer.html
+Rythmbox Prehear plugin
 
-For the mockup, I recommend the following :
-- The main playback on top of the screen stays with the main output. So, in
-  "party mix", stopping is not possible and it follows the playlist.
-- a kind of secondary player could appear on the bottom named "headphone" or
-  something like this. When we are on the library page, double clicking on a
-file start play back on the secondary output.
-- the item "add to the playlist" keep the same behaviour.
-- in the main playlist, double clicking on a file start playback on the
-  secondary output.
+Description
+===========
 
-Additional feature:
-- already played musics could appear in gray. I use the "last played" column
-  to know which files have been already played in the party.
+This plugin provides an easy way to select songs without stopping the current
+one. Typically, the new secondary audio output could be directed to a headset 
+while the main output continue playing on the main audio card.
 
-Any other idea?
+Requirement
+===========
+You should have the following requirement in order to use this plugin
+- either an audio card with 2 independent audio output (most audio card only
+  have one output)
+- either 2 audio cards.
 
-PS: I know well C++ but not so easy with python. I will easily follow when you
-will have started.
+You can use some USB audio card, they are cheep and very well supported by 
+GNU/Linux
+
+Installation
+============
+Execute the installation script with the following command:
+
+  ./install.sh
+  
+
+Usage
+=====
+
+
+Uninstall
+=========
+Execute the remove script :
+
+  ./uninstall.sh
 
