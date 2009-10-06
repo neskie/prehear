@@ -1,4 +1,4 @@
-#schedule.py
+#prehrear.py
 # vim: ts=4: sw=4:et:sts:ai
 # See README
 
