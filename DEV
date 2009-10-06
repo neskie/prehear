@@ -20,3 +20,13 @@ Any other idea?
 PS: I know well C++ but not so easy with python. I will easily follow when you
 will have started.
 
+Working with Eclipse
+====================
+- Install
+  - Eclipse >3.5
+  - PyDev
+  - EGit
+- Import project using the following settings:
+  - git@github.com:neskie/prehear.git
+    (choose git+ssh as protocol, do not enter a password for the "git" login,
+    and be sure github is aware of you ssh public key)
